@@ -1,0 +1,94 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+header {
+	background-color: #DF203E;
+	background-repeat: no-repeat;
+	background-position: right top; 
+	 
+	height: 70px;
+} 
+header h1 {
+	color: #FFFFFF;
+	font-style: italic;
+	margin: 0;
+}
+nav {
+	background-color: #E74B64;
+	font-size: 120%;
+}
+nav a {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0 1.5em;
+}
+nav a:hover {
+	color: black;
+	background-color: #FFFFFF;
+}
+footer {
+	color: #FFFFFF;
+	background-color: #E74B64;
+	text-align: center;
+	font-size: 0.7em;
+}
+footer a{
+	color: #FFFFFF;
+}
+section {
+	padding: 1%;
+}
+section a {
+	color: #E74B64;
+	font-weight: bold;
+}
+section a:hover {
+	color: #FF0009;
+}
+header h1 {
+	padding-left: 1%;
+	padding-top: 1%; 
+}
+fieldset {
+	margin: 10px 0;
+	border: 1px solid #FF0009;
+}
+legend {
+	font-weight: bold;
+	background-color: #FF0009;
+	color: #FFFFFF;
+	padding: 0.5em;
+}
+.chyba {
+	color: #FF0000;
+}
+.ok {
+	color: green;
+}
+.smutne_ok {
+	color: blue;
+}
+.znizenie_miest{
+	color: #956F6A; 
+}
+.zvysenie_miest{
+	color: #5CA382;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+section table {
+	border-collapse: collapse;
+}
+section th {
+	background-color: #E74B64;
+	padding: 0.5em;
+	border: 1px solid black;
+}
+section td {
+	padding: 0.5em;
+	border: 1px solid black;
+}
